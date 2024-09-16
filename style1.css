@@ -1,0 +1,96 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: "poppins",sans-serif;
+}
+body{
+display: flex;
+justify-content: center;
+align-items: center;
+min-height: 100vh;
+background-image:linear-gradient(to bottom,rgb(61, 36, 56),rgb(161, 15, 161),rgb(153, 27, 144)) ;
+}
+.w{
+    width: 500px;
+    height: 350px;
+    background:blueviolet;
+    color: #100505;
+    border-radius: 20px;
+}
+.w h1{
+    font-size: 36px;
+    text-align: center;
+}
+.w .input1{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+}
+.input1 input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid white;
+    border-radius: 40px;
+}
+.input1 input::placeholder{ 
+    font-family: bold;
+    padding: 20px;
+    color: #110f0f;
+}
+.input1 i {
+    position: absolute;
+    right: 20px;
+    top:30%;
+    transform: translateY(-50%);
+    font-size: 20px;
+}
+.w .remember{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+   font-size: 14.5px;
+   margin: -15px 0 15px;
+}
+.remember label input{
+    accent-color: #fefafa;
+    margin-right: 3px;
+}
+.remember a{
+    padding:none;
+    color: #2c1d1d;
+    text-decoration: none;
+}
+.remember a:hover{
+    text-transform: underline;
+}
+.w .btn{
+width: 100%;
+height: 45px;
+background-color: #fff;
+border: none;
+outline: none;
+border-radius: 40px;
+box-shadow:  0 0 10px rgba(0,0,0,.1);
+cursor: pointer;
+font-size: 16px;
+color: #333;
+font-weight: 600;
+}
+.w .register{
+    font-size: 14.5px;
+    text-align:center;
+    margin-top: 20px;
+}
+.register p a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+}
+.register p a:hover{
+text-decoration: underline;
+}
